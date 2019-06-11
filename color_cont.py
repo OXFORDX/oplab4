@@ -1,4 +1,5 @@
 import numpy as np
+from header_container import container
 
 
 class PIXELDATA:
@@ -9,3 +10,4 @@ class PIXELDATA:
 
     def colors(self):
         return self.blueC, self.greenC, self.redC
+
